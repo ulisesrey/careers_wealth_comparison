@@ -1,10 +1,16 @@
-# careers wealth comparison
+# Careers Wealth Comparison
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+Compare long-run net worth under different career paths. The baseline is staying as a Data Scientist; the alternative is taking a career break to become a doctor.
 
-A repository to compare wealth outcomes depending on career choices
+Salary schedules live in `data/raw/scenarios.json` — edit them to match your real numbers. Config params (current age, retirement age, cost of living, investment return rate, starting net worth) are sliders in the dashboard.
+
+![Net worth projection](reports/figures/Figure_1.png)
+
+## Run
+
+```bash
+uv run streamlit run app.py
+```
 
 ## Project Organization
 
